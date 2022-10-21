@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1 id="title">Survey Form</h1>
+    <p id="description">How satisfied are you of life?</p>
+
+    <form action="" ; id="survey-form">
+        <fieldset>
+            <label id="name-label" for="name">Name: <input required placeholder="Please put your name" type="text"
+                    id="name" /></label>
+            <br>
+            <label id="email-label" for="email">Email: <input required placeholder="Please put your email" type="email"
+                    id="email" /></label>
+            <br>
+            <label id="number-label" for="age">Age: <input required placeholder="Please put your age" min="13" max="120"
+                    type="number" id="number" /></label>
+        </fieldset>
+        <fieldset>
+            <label for="dropdown">Choose from option
+                <select id="dropdown">
+                    <option>(select one)</option>
+                    <option>Happy</option>
+                    <option>Not Happy</option>
+                    <option>Slightly Happy</option>
+                    <option>Super Happy</option>
+                </select>
+            </label>
+        </fieldset>
+        <fieldset>
+            <label class="inlinelabel">Do you want to be happy?
+
+                <br>
+                <label><input class="inline clickable" value="HappyYes" name="Want" type="radio" />Yes</label>
+                <br>
+                <label> <input class="inline clickable" value="HappyNo" name="Want" type="radio" />No </label>
+            </label>
+        </fieldset>
+        <fieldset>
+
+            <label class="inlinelabel">What are the things you need to be happy?
+                <br>
+                <label> <input class="inline clickable" value="1" name="Checkbox" type="checkbox" />Money</label>
+                <br>
+                <label> <input class="inline clickable" value="2" name=Checkbox" type="checkbox" />Love</label>
+                <br>
+                <label> <input class="inline clickable" value="3" name="Checkbox" type="checkbox" />Health</label>
+            </label>
+        </fieldset>
+        <fieldset>
+            </label>
+            <label>What other things can you think of?
+                <label> <textarea placeholder="Vacation, Games, Others..." /></textarea></label>
+        </fieldset>
+        </label>
+        <input name="submit" id="submit" value="Submit" type="submit" />
+    </form>
+    <footer>
+
+    </footer>
+
+</body>
+
+</html>
